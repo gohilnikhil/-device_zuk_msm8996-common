@@ -1,3 +1,7 @@
 allow platform_app sysfs_kgsl:dir { search };
 allow platform_app sysfs_kgsl:lnk_file { read };
 allow platform_app sysfs_fps:file { getattr open read };
+
+# Allow CPUInfo access to thermal
+allow platform_app sysfs_thermal:dir search;
+allow platform_app sysfs_thermal:file r_file_perms;
