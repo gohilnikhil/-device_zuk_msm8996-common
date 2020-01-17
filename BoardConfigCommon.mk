@@ -201,6 +201,7 @@ VENDOR_SECURITY_PATCH := 2018-11-05
 include device/qcom/sepolicy-legacy-um/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+SELINUX_IGNORE_NEVERALLOWS := true
 
 # Vendor init
 TARGET_INIT_VENDOR_LIB := //$(VENDOR_PATH):libinit_msm8996
