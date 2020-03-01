@@ -11,3 +11,6 @@ type sysfs_pcie, sysfs_type, fs_type, mlstrustedobject;
 type sysfs_wifi, sysfs_type, fs_type, mlstrustedobject;
 type sysfs_scsi_devices_0000, sysfs_type, fs_type;
 type sysfs_doubletap, sysfs_type, fs_type;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
