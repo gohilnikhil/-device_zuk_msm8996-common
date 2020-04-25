@@ -245,6 +245,12 @@
                 android:targetClass="com.havoc.config.center.fragments.navbar.BackDoubleTap" />
         </Preference>
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="home_key"
+        android:title="@string/home_key_title">
+
         <ListPreference
             android:key="home_key_long_press"
             android:title="@string/utouch_single_press_title"
