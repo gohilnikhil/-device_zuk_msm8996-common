@@ -15,10 +15,13 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     
     <!-- Hardware button navigation -->
-    <string name="u-touch_keys_home_key_title">Home button</string>
-    <string name="u-touch_keys_menu_key_title">Swipe Right</string>
-    <string name="u-touch_keys_assist_key_title">Press</string>
-    <string name="u-touch_keys_appswitch_key_title">Swipe Left</string>
-    <string name="u-touch_keys_back_key_title">Tap</string>
- 
+    <string name="utouch_single_swipe_title">Single swipe action</string>
+    <string name="utouch_double_swipe_title">Double swipe action</string>
+    <string name="utouch_single-tap_title">Single tap action</string>
+    <string name="utouch_double_tap_title">Double tap action</string>
+    <string name="utouch_single_press_title">Single press action</string>
+    <string name="utouch_double_press_title">Double press action</string>
+    <string name="utouch_menu_key_title">Swipe Right action</string>
+    <string name="utouch_app_switch_key_title">Swipe Left action</string>
+    <string name="utouch-home_key_title">U-touch gestures</string>
 </resources>
